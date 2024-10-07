@@ -15,13 +15,7 @@ public class OrquestadorController {
 
     @Autowired
     private RestTemplate restTemplate;
-
-
-    @GetMapping("/")
-    public ResponseEntity<String> home() {
-        String welcome = "welcome to Orquestador";
-        return ResponseEntity.ok(welcome);
-    }
+    
 
     @GetMapping("/usuarios")
     public ResponseEntity<String> getUsuarios() {

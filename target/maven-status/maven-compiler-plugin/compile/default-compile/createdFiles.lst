@@ -1,3 +1,4 @@
+org\example\orquestador\CorsConfig\WebConfig.class
 org\example\orquestador\OrquestadorController.class
 org\example\orquestador\RestTemplateConfig.class
 org\example\orquestador\OrquestadorApplication.class
